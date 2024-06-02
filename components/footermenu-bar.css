@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+.nav li:nth-child(2) {
+  position: relative;
+}
+
 .footer__menu {
   display: flex;
   flex-direction: column;
@@ -50,5 +54,5 @@
   text-align: center;
   line-height: 15px;
   top: 5px;
-  left: 130px;
+  left: 35px;
 }
