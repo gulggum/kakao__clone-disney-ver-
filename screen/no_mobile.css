@@ -11,7 +11,7 @@
   color: white;
 }
 .no_mobile span {
-  margin-top: 500px;
+  margin-top: 300px;
 }
 
 @media screen and (max-width: 576px) {
