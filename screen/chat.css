@@ -1,0 +1,156 @@
+.chatting__background {
+  background-color: #74c0fc;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#chatting__window {
+  margin: var(--mainMargin);
+  height: 100%;
+}
+
+.chatting__date {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.chatting__date span {
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
+
+.chatting__date i {
+  margin-right: 10px;
+}
+
+.chatting-photo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.chatting__user-recived {
+  display: flex;
+  margin-top: 20px;
+}
+
+.chatting-inform {
+  margin-left: 10px;
+  position: relative;
+}
+
+.chatting-name {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.chatting-Statusmessage {
+  margin-top: 10px;
+  font-size: 15px;
+  color: black;
+  width: 130px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  line-height: 30px;
+  text-align: center;
+}
+
+@keyframes chatSlideSend {
+  from {
+    transform: translateX(200px);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes chatSlideRecive {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.chatting-Statusmessage__recive {
+  border-top-left-radius: 0px;
+  animation: chatSlideRecive 1s ease-in-out;
+}
+.chatting-Statusmessage__send {
+  border-top-right-radius: 0px;
+  animation: chatSlideSend 1s ease-in-out;
+  background-color: rgb(218, 218, 71);
+}
+
+.chatting-clock {
+  font-size: 13px;
+  position: absolute;
+  top: 130px;
+  left: 135px;
+  color: var(--opacityColor);
+}
+
+.chatting__user-send {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chatting-clock__send {
+  font-size: 13px;
+  position: absolute;
+  top: 110px;
+  left: -35px;
+  color: var(--opacityColor);
+}
+
+#chatting__input {
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  z-index: 2;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  color: var(--opacityColor);
+}
+
+#chatting__input input {
+  width: 100%;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+}
+.input__icons {
+  display: flex;
+  position: absolute;
+  right: 30px;
+}
+
+#chatting__input i:first-child {
+  padding: 0px 10px;
+}
+
+#chatting__input i:last-child {
+  padding: 0px 10px;
+}
+
+.chatting__a {
+  color: #333;
+}

@@ -1,0 +1,31 @@
+#status__bar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  z-index: 1;
+}
+.friends__screen-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status__bar-column:first-child {
+  margin-left: 20px;
+}
+
+.status__bar-column:first-child span {
+  font-size: 15px;
+}
+.status__bar-column:last-child {
+  margin-right: 20px;
+}
+
+.status__bar-column:last-child i {
+  margin-left: 5px;
+  font-size: 15px;
+}

@@ -1,0 +1,19 @@
+:root {
+  --sideMargin: 10px 20px;
+}
+
+:root {
+  --mainMargin: 0px 10px;
+}
+
+:root {
+  --titleFontSize: 20px;
+  --bodyFontSize: 13px;
+}
+
+:root {
+  --subTitleFontSize: 15px;
+  --subTitlePadding: 20px 0px;
+  --titleBar: 1px solid rgba(0, 0, 0, 0.05);
+  --opacityColor: rgba(0, 0, 0, 0.5);
+}

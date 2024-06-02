@@ -1,0 +1,48 @@
+.shop__menu {
+  margin: var(--sideMargin);
+  margin-top: 100px;
+  padding: 10px 0px;
+}
+.shop__menu > ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.shop__items {
+  margin: var(--sideMargin);
+  margin-top: 40px;
+}
+.shop__items h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.item {
+  margin-right: 16px;
+}
+.item__pic {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.item__pic img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+.item__pic span {
+  font-size: 14px;
+  padding: 5px 0px;
+}
+.item__pic span:first-child {
+  color: rgba(0, 0, 0, 0.2);
+}
+.item__pic span:last-child {
+  font-weight: bold;
+}
+
+.item__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

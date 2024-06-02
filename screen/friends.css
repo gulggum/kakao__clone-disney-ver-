@@ -1,0 +1,99 @@
+.profile-mine__photo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.profile-mine {
+  margin: var(--mainMargin);
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 110px;
+  margin-bottom: 20px;
+}
+
+.profile-mine__inform {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.profile-mine__inform span:last-child {
+  width: 90px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border: 1px solid #3333;
+  border-radius: 30px;
+  color: #333;
+  font-size: 14px;
+}
+
+.friends__banner {
+  width: 340px;
+  height: 80px;
+  background-color: whitesmoke;
+  margin: var(--mainMargin);
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.friends__banner img {
+  width: 340px;
+}
+
+.friends__birthday {
+  margin: var(--mainMargin);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: var(--titleBar);
+}
+.friends__birthday > span {
+  font-size: var(--subTitleFontSize);
+  padding: var(--subTitlePadding);
+  border-top: var(--titleBar);
+  display: block;
+}
+
+.friends__birthday-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.friends__birthday-bg {
+  width: 50px;
+  height: 50px;
+  background-color: palevioletred;
+  border-radius: 20px;
+}
+.friends__birthday__icon:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.friends__birthday__icon:first-child i {
+  position: absolute;
+  top: 24px;
+  left: 16px;
+  color: white;
+}
+
+.friends__birthday__icon:nth-child(2) {
+  margin-left: -60px;
+  font-size: 15px;
+}
+
+.friends__birthday__icon:last-child {
+  font-size: var(--bodyFontSize);
+  color: var(--opacityColor);
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="status__bar">
+      <div class="status__bar-column">
+        <span>00:00</span>
+      </div>
+      <div class="status__bar-column">
+        <i class="fa-solid fa-signal"></i>
+        <i class="fa-solid fa-wifi"></i>
+        <i class="fa-solid fa-battery-three-quarters"></i>
+      </div>
+    </div>
+
+    <header id="screen-header">
+      <div class="screen-title">
+        <a class="chatting__a" href="chats.html"
+          ><i class="fa-solid fa-chevron-left"></i> <span>300+</span></a
+        >
+      </div>
+      <div class="screen-menu">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-regular fa-comment-dots"></i>
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </header>
+
+    <div class="chatting__background"></div>
+    <div id="chatting__window">
+      <div class="chatting__date">
+        <span
+          ><i class="fa-regular fa-calendar-days"></i>2024년 6월 2일 목요일 >
+        </span>
+      </div>
+      <div class="chatting__user-recived">
+        <div class="chatting-photo">
+          <img
+            src="https://i.pinimg.com/474x/1c/5a/7d/1c5a7dab54677704367c2d0e565e0f2d.jpg"
+            alt=""
+          />
+        </div>
+        <div class="chatting-inform">
+          <div class="chatting-message">
+            <div class="chatting-name">Minni</div>
+
+            <div class="chatting-Statusmessage chatting-Statusmessage__recive">
+              mickey!!
+            </div>
+            <div class="chatting-Statusmessage chatting-Statusmessage__recive">
+              call me please!!
+            </div>
+            <div class="chatting-Statusmessage chatting-Statusmessage__recive">
+              where are you??
+            </div>
+          </div>
+          <div class="chatting-clock chatting-clock__recive">
+            <span>08:34</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chatting__user-send">
+        <div class="chatting-photo"></div>
+        <div class="chatting-inform">
+          <div class="chatting-message">
+            <div class="chatting-name"></div>
+
+            <div class="chatting-Statusmessage chatting-Statusmessage__send">
+              Minnie
+            </div>
+            <div class="chatting-Statusmessage chatting-Statusmessage__send">
+              what'up??
+            </div>
+            <div class="chatting-Statusmessage chatting-Statusmessage__send">
+              I'm home !!
+            </div>
+          </div>
+          <div class="chatting-clock chatting-clock__send">
+            <span>08:34</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="chatting__input">
+      <i class="fa-solid fa-plus"></i>
+      <input type="text" />
+      <div class="input__icons">
+        <i class="fa-regular fa-face-smile"></i>
+        <i class="fa-solid fa-hashtag"></i>
+      </div>
+      <i class="fa-solid fa-microphone"></i>
+    </footer>
+
+    <div class="no_mobile">
+      <span>Your screen is too big!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/73deddf0a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

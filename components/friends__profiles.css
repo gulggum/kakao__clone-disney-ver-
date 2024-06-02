@@ -1,0 +1,71 @@
+.friends__profiles {
+  margin: var(--mainMargin);
+  border-top: var(--titleBar);
+}
+
+.friends__profiles > span {
+  display: block;
+  padding: var(--subTitlePadding);
+  font-size: var(--subTitleFontSize);
+  border-top: var(--titleBar);
+}
+
+.friends__profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.friends__profile-name {
+  font-size: 18px;
+}
+.friends__profile-Statusmessage {
+  font-size: 15px;
+}
+
+.friends__profile {
+  display: flex;
+  margin-bottom: 20px;
+}
+.friends__profile-inform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+  width: 100%;
+}
+.friends__profile-Statusmessage {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.friends__profile-song {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.friends__profile-song span {
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border: 1px solid greenyellow;
+  border-radius: 30px;
+  color: var(--opacityColor);
+  font-size: 14px;
+  margin-right: 10px;
+}
+.friends__profile-song i {
+  margin-left: 10px;
+  color: greenyellow;
+}
+
+.friends__profile-right {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.elsa__song span {
+  width: 180px;
+}

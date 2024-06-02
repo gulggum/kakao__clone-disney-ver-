@@ -1,0 +1,123 @@
+.chats__banner {
+  width: 340px;
+  height: 80px;
+  background-color: whitesmoke;
+  margin: var(--mainMargin);
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  top: 80px;
+}
+
+.chats__banner img {
+  width: 340px;
+}
+
+.chats__lists {
+  margin: var(--mainMargin);
+  margin-top: 100px;
+}
+
+.chats__lists > span {
+  display: block;
+  padding: var(--subTitlePadding);
+  font-size: var(--subTitleFontSize);
+  border-top: var(--titleBar);
+}
+
+.chats__room img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.chats__room-name {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.chats__room-name i {
+  margin-left: 5px;
+  color: var(--opacityColor);
+  margin-top: 10px;
+}
+
+.chats__room-Statusmessage {
+  font-size: 15px;
+  width: 80%;
+}
+
+.chats__room {
+  display: flex;
+  margin-bottom: 20px;
+}
+.chats__room-name {
+  color: #333;
+  margin-bottom: 10px;
+}
+.chats__room-inform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+  width: 90%;
+}
+.chats__room-Statusmessage {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.chats__room-clock {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.chats__room-clock span:first-child {
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 30px;
+  color: var(--opacityColor);
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.chats__room-alarm span:last-child {
+  width: 20px;
+  height: 20px;
+  border-radius: 60px;
+  font-size: 14px;
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+.chats__room-alarm-300 span:last-child {
+  width: 40px;
+  height: 20px;
+  border-radius: 60px;
+  font-size: 12px;
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 10px;
+}
+.chats__room-right {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chats__room-photo-group img {
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+}
+.photo-group_box {
+  width: 50px;
+}
