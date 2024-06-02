@@ -28,7 +28,6 @@ a {
 }
 
 #login__header {
-  width: 320px;
   height: 200px;
   margin: var(--sideMargin);
   display: flex;
@@ -41,7 +40,6 @@ a {
 #login__header img {
   width: 200px;
   border-radius: 200px;
-  position: sticky;
 }
 
 .login__input {
