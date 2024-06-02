@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+.nav li:nth-child(2) .footer__menu {
+  position: relative;
+}
+
 .footer__menu {
   display: flex;
   flex-direction: column;
@@ -34,9 +38,20 @@
   margin-bottom: 5px;
   margin-top: 10px;
 }
-
 .footer__menu li:nth-child(2) {
   position: relative;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transition: none;
+  }
 }
 
 .footer__notification {
@@ -50,5 +65,6 @@
   text-align: center;
   line-height: 15px;
   top: 5px;
-  left: 130px;
+  left: 35px;
+  animation: notificationAnimation 1.2s ease-in-out infinite;
 }

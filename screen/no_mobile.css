@@ -11,10 +11,17 @@
   color: white;
 }
 .no_mobile span {
+<<<<<<< Updated upstream
   margin-top: 500px;
 }
 
 @media screen and (max-width: 380px) {
+=======
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 577px) {
+>>>>>>> Stashed changes
   .no_mobile {
     display: none;
   }
